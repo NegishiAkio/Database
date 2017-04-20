@@ -1,0 +1,47 @@
+データベースについて
+webアプリなどでユーザの情報を格納するところです
+コンピュータの主な用途は、データを処理すること
+
+-テーブル(その中のシート)
+--(列)フィールド
+--レコード(行)
+
+MySQLコマンド
+mysql -u root -p　パスワードを入力して起動
+
+set password for root@localhost=passwird('設定したいパスワード')
+
+create database データベース名データベースを作る
+
+grant all on akio.*to dbuser@localhost identified by '設定したいパスワード'作業ユーザを作る
+
+データベースの中身を確認
+show databases;複数形を使うs
+
+データベースの中にあるテーブルの確認
+show tables;
+
+create table akio (
+->
+->
+->
+
+
+
+
+
+RDBMSとは、リレーショナルデータベースを管理するための専用のソフトウェア。
+
+リレーショナルデータベース(RDB：relational database)
+は一件のデータを
+複数の属性の値の組として表現し、
+組を列挙することでデータを格納していく方式で、属性を列、
+組を行とする表（テーブル）の形で示されることが多い。
+
+
+
+https://www.slideshare.net/matsunobu/ss-6584540
+
+http://www.oracle.com/technetwork/jp/articles/index-313275-ja.html
+
+http://www.silversecond.com/WolfRPGEditor/Guide/PRO_007.html
